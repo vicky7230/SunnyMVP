@@ -17,7 +17,7 @@ public class Forecast {
     private Long cnt;
     @SerializedName("list")
     @Expose
-    private java.util.List<com.vicky7230.sunny.retrofitPojo.Forecast.List> list = null;
+    private java.util.List<com.vicky7230.sunnymvp.data.network.model.Forecast.List> list = null;
     @SerializedName("city")
     @Expose
     private City city;
@@ -46,11 +46,11 @@ public class Forecast {
         this.cnt = cnt;
     }
 
-    public java.util.List<com.vicky7230.sunny.retrofitPojo.Forecast.List> getList() {
+    public java.util.List<com.vicky7230.sunnymvp.data.network.model.Forecast.List> getList() {
         return list;
     }
 
-    public void setList(java.util.List<com.vicky7230.sunny.retrofitPojo.Forecast.List> list) {
+    public void setList(java.util.List<com.vicky7230.sunnymvp.data.network.model.Forecast.List> list) {
         this.list = list;
     }
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SunnyMVP</string>
+    <string name="app_market_link">#</string>
+    <string name="app_google_play_store_link">#</string>
 </resources>
